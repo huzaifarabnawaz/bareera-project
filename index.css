@@ -1,0 +1,47 @@
+/* body{
+    background-color: red;
+    color:azure;
+    width:300px;
+   height:150px ;
+    font-size:20px;
+    padding: 100px                                                                                               ;
+    margin: 100px;
+    border-radius: 8px;                                                                                                                                                                                                                   
+    border: 2px solid white;
+} */
+
+body{
+    display: flex;
+    
+    justify-content: center;
+    align-items:center ;
+    width: 1400px;
+    height: 700px;
+    
+}
+
+.full-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loginbox {
+    border:2px solid black;
+    border-radius: 10px;
+    
+    padding: 20px;
+
+}
+.plogin{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+    color: red;
+}
+
+.pinput{
+    margin-bottom: 10px;
+}
